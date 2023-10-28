@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-#importando rutas y controladores   
+# importando rutas y controladores   
 import controllers.usuario as usuarioController
 
 app = FastAPI()

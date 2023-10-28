@@ -10,7 +10,7 @@ def lista_usuarios():
     return[]
 
 @rutas.get(url + "/(id)")
-def obtiene_usuario(id:unt):
+def obtiene_usuario(id:int):
     return{}
 
 @rutas.post("url")
